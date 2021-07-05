@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;   
+}
+
+header li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+
+.bar {
+    float: right;
+    font-size: smaller;
+}
+
+.bar a img:hover {
+    border-radius: 5%;
+    color: rgba(51, 51, 51, 0.349);
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    margin-top: 30vh;
+    margin-left: 200px;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+input {
+    border-radius: 30px;
+    width: 600px;
+    padding: 5px;
+    border: 1px solid rgb(202, 198, 198);
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    
+}
+
+input::placeholder {
+    padding: 25px;
+}
+
+
+
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+
+}
+
+.lookup {
+    min-width: 54px;
+    height: 30px;
+    padding: 0 35px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 12px;
+    background-color: rgba(235, 235, 235, 0.473);
+}
+
+.lookup:hover {
+    background-color: rgba(235, 235, 235, 0.473);
+    box-shadow: 0 1px 1px  rgba(94, 94, 94, 0.747);
+    cursor: pointer;
+}
+
+.lookup:focus {
+    border: 1px solid blue;
+    
+}
